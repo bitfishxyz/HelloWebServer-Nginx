@@ -14,3 +14,18 @@ web服务器一大用途就是托管静态资源。当然这件事用Java PHP都
 
 其实就是这个简单啊，那我们来看对应到nginx配置文件
 
+
+
+```
+server {
+    listen 80;
+    server_name music.static.bitfish.xyz;
+    root /var/www/music.static.bitfish.xyz;
+    index index.html;
+}
+```
+
+
+
+把对应的请求映射到 /var/www/music.static.bitfish.xyz 文件夹。
+

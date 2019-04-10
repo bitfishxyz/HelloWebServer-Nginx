@@ -31,3 +31,4 @@ Node PHP 都是有内置HTTP服务器，Java有Tomat， 所以为什么要用web
   - 跨域
   - 反爬虫
 - 负载均衡
+- 反向代理

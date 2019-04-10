@@ -32,3 +32,11 @@ $ nginx
 
 #### nginx -s reload
 
+重新加载配置文件
+
+#### nginx -s stop 
+
+退出
+
+
+
